@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module xmlns="urn:jboss:module:1.1" name="org.kie" slot="main">
+
+    <resources>
+                    <resource-root path="kie-api-6.5.0.Final.jar"/>
+                    <resource-root path="kie-ci-6.5.0.Final.jar"/>
+                    <resource-root path="kie-internal-6.5.0.Final.jar"/>
+              </resources>
+  
+    <dependencies>
+                    <module name="com.sun.xml.bind" export="false" slot="main" services="import" optional="false"/>
+                            <module name="com.thoughtworks.xstream" export="false" slot="main" services="import" optional="false"/>
+                            <module name="javax.activation.api" export="false" slot="main" services="import" optional="false"/>
+                            <module name="javax.api" export="false" slot="main" services="import" optional="false"/>
+                            <module name="javax.enterprise.api" export="false" slot="main" services="import" optional="false"/>
+                            <module name="javax.inject.api" export="false" slot="main" services="import" optional="false"/>
+                            <module name="javax.jms.api" export="false" slot="main" services="import" optional="false"/>
+                            <module name="javax.xml.bind.api" export="false" slot="main" services="import" optional="false"/>
+                            <module name="org.apache.ant" export="false" slot="main" services="import" optional="false"/>
+                            <module name="org.apache.httpcomponents" export="false" slot="main" services="import" optional="false"/>
+                            <module name="org.apache.maven" export="false" slot="main" services="import" optional="false"/>
+                            <module name="org.apache.maven.wagon" export="false" slot="main" services="import" optional="false"/>
+                            <module name="org.codehaus.woodstox" export="false" slot="main" services="import" optional="false"/>
+                            <module name="org.codehouse.plexus" export="false" slot="main" services="import" optional="false"/>
+                            <module name="org.drools" export="false" slot="main" services="import" optional="false"/>
+                            <module name="org.eclipse.aether" export="false" slot="main" services="import" optional="false"/>
+                            <module name="org.eclipse.sisu" export="false" slot="main" services="import" optional="false"/>
+                            <module name="org.hamcrest" export="false" slot="main" services="import" optional="false"/>
+                            <module name="org.jbpm" export="false" slot="main" services="import" optional="false"/>
+                            <module name="org.mvel" export="false" slot="main" services="import" optional="false"/>
+                            <module name="org.osgi" export="false" slot="main" services="import" optional="false"/>
+                            <module name="org.osgi.core" export="false" slot="main" services="import" optional="false"/>
+                            <module name="org.slf4j" export="false" slot="main" services="import" optional="false"/>
+                            <module name="org.sonatype.plexus" export="false" slot="main" services="import" optional="false"/>
+                            <module name="org.sonatype.sisu" export="false" slot="main" services="import" optional="false"/>
+              </dependencies>
+  </module>

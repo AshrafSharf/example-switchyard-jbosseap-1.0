@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module xmlns="urn:jboss:module:1.1" name="org.drools" slot="main">
+
+	<resources>
+		<resource-root path="drools-compiler-6.5.0.Final.jar"/>
+		<resource-root path="drools-core-6.5.0.Final.jar"/>
+		<resource-root path="drools-decisiontables-6.5.0.Final.jar"/>
+		<resource-root path="drools-persistence-jpa-6.5.0.Final.jar"/>
+		<resource-root path="drools-pmml-6.5.0.Final.jar"/>
+		<resource-root path="drools-scorecards-6.5.0.Final.jar"/>
+		<resource-root path="drools-templates-6.5.0.Final.jar"/>
+		<resource-root path="drools-workbench-models-commons-6.5.0.Final.jar"/>
+		<resource-root path="drools-workbench-models-datamodel-api-6.5.0.Final.jar"/>
+		<resource-root path="drools-workbench-models-guided-dtable-6.5.0.Final.jar"/>
+		<resource-root path="drools-workbench-models-guided-scorecard-6.5.0.Final.jar"/>
+		<resource-root path="drools-workbench-models-guided-template-6.5.0.Final.jar"/>
+		<resource-root path="drools-workbench-models-test-scenarios-6.5.0.Final.jar"/>
+	</resources>
+
+	<dependencies>
+		<module name="com.google.protobuf" export="false" slot="main" services="import" optional="false"/>
+		<module name="com.sun.xml.bind" export="false" slot="main" services="import" optional="false"/>
+		<module name="com.thoughtworks.xstream" export="false" slot="main" services="import" optional="false"/>
+		<module name="javax.activation.api" export="false" slot="main" services="import" optional="false"/>
+		<module name="javax.api" export="false" slot="main" services="import" optional="false"/>
+		<module name="javax.enterprise.api" export="false" slot="main" services="import" optional="false"/>
+		<module name="javax.inject.api" export="true" slot="main" services="import" optional="false"/>
+		<module name="javax.persistence.api" export="false" slot="main" services="import" optional="false"/>
+		<module name="javax.transaction.api" export="false" slot="main" services="import" optional="false"/>
+		<module name="javax.xml.bind.api" export="false" slot="main" services="import" optional="false"/>
+		<module name="org.antlr" export="false" slot="3.5" services="import" optional="false"/>
+		<module name="org.apache.commons.lang" export="false" slot="main" services="import" optional="false"/>
+		<module name="org.apache.poi" export="false" slot="main" services="import" optional="false"/>
+		<module name="org.codehaus.woodstox" export="false" slot="main" services="import" optional="false"/>
+		<module name="org.dom4j" export="false" slot="main" services="import" optional="false"/>
+		<module name="org.hibernate" export="false" slot="main" services="import" optional="false"/>
+		<module name="org.javassist" export="false" slot="main" services="import" optional="false"/>
+		<module name="org.jboss.as.osgi.jta" export="false" slot="main" services="import" optional="false"/>
+		<module name="org.jboss.as.web" export="false" slot="main" services="import" optional="false"/>
+		<module name="org.jboss.vfs" export="false" slot="main" services="import" optional="false"/>
+		<module name="org.jbpm" export="false" slot="main" services="import" optional="false"/>
+		<module name="org.junit" export="false" slot="main" services="import" optional="false"/>
+		<module name="org.kie" export="false" slot="main" services="import" optional="false"/>
+		<module name="org.mvel" export="false" slot="main" services="import" optional="false"/>
+		<module name="org.osgi" export="false" slot="main" services="import" optional="false"/>
+		<module name="org.osgi.core" export="false" slot="main" services="import" optional="false"/>
+		<module name="org.slf4j" export="false" slot="main" services="import" optional="false"/>
+	</dependencies>
+</module>

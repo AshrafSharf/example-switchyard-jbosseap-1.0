@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module xmlns="urn:jboss:module:1.1" name="org.jbpm" slot="main">
+
+    <resources>
+                    <resource-root path="jbpm-audit-6.5.0.Final.jar"/>
+                            <resource-root path="jbpm-bpmn2-emfextmodel-6.5.0.Final.jar"/>
+                            <resource-root path="jbpm-bpmn2-6.5.0.Final.jar"/>
+                            <resource-root path="jbpm-document-6.5.0.Final.jar"/>
+                            <resource-root path="jbpm-executor-6.5.0.Final.jar"/>
+                            <resource-root path="jbpm-flow-builder-6.5.0.Final.jar"/>
+                            <resource-root path="jbpm-flow-6.5.0.Final.jar"/>
+                            <resource-root path="jbpm-human-task-audit-6.5.0.Final.jar"/>
+                            <resource-root path="jbpm-human-task-core-6.5.0.Final.jar"/>
+                            <resource-root path="jbpm-human-task-jpa-6.5.0.Final.jar"/>
+                            <resource-root path="jbpm-human-task-workitems-6.5.0.Final.jar"/>
+                            <resource-root path="jbpm-kie-services-6.5.0.Final.jar"/>
+                            <resource-root path="jbpm-persistence-jpa-6.5.0.Final.jar"/>
+                            <resource-root path="jbpm-runtime-manager-6.5.0.Final.jar"/>
+                            <resource-root path="jbpm-services-api-6.5.0.Final.jar"/>
+                            <resource-root path="jbpm-shared-services-6.5.0.Final.jar"/>
+                            <resource-root path="jbpm-workitems-6.5.0.Final.jar"/>
+              </resources>
+  
+    <dependencies>
+                    <module name="com.google.protobuf" export="false" slot="main" services="import" optional="false"/>
+                            <module name="com.opensymphony.quartz" export="false" slot="main" services="import" optional="false"/>
+                            <module name="com.sun.xml.bind" export="false" slot="main" services="import" optional="false"/>
+                            <module name="com.thoughtworks.xstream" export="false" slot="main" services="import" optional="false"/>
+                            <module name="javaee.api" export="false" slot="main" services="import" optional="false"/>
+                            <module name="javax.activation.api" export="false" slot="main" services="import" optional="false"/>
+                            <module name="javax.annotation.api" export="false" slot="main" services="import" optional="false"/>
+                            <module name="javax.api" export="false" slot="main" services="import" optional="false"/>
+                            <module name="javax.ejb.api" export="false" slot="main" services="import" optional="false"/>
+                            <module name="javax.el.api" export="false" slot="main" services="import" optional="false"/>
+                            <module name="javax.enterprise.api" export="false" slot="main" services="import" optional="false"/>
+                            <module name="javax.inject.api" export="false" slot="main" services="import" optional="false"/>
+                            <module name="javax.jms.api" export="false" slot="main" services="import" optional="false"/>
+                            <module name="javax.mail.api" export="false" slot="main" services="import" optional="false"/>
+                            <module name="javax.persistence.api" export="false" slot="main" services="import" optional="false"/>
+                            <module name="javax.security.jacc.api" export="false" slot="main" services="import" optional="false"/>
+                            <module name="javax.wsdl4j.api" export="false" slot="main" services="import" optional="false"/>
+                            <module name="org.apache.camel" export="false" slot="main" services="import" optional="false"/>
+                            <module name="org.apache.commons.codec" export="false" slot="main" services="import" optional="false"/>
+                            <module name="org.apache.commons.collections" export="false" slot="main" services="import" optional="false"/>
+                            <module name="org.apache.commons.compress" export="false" slot="main" services="import" optional="false"/>
+                            <module name="org.apache.commons.exec" export="false" slot="main" services="import" optional="false"/>
+                            <module name="org.apache.commons.io" export="false" slot="main" services="import" optional="false"/>
+                            <module name="org.apache.commons.lang" export="false" slot="main" services="import" optional="false"/>
+                            <module name="org.apache.cxf" export="false" slot="main" services="import" optional="false"/>
+                            <module name="org.apache.cxf.impl" export="false" slot="main" services="import" optional="false"/>
+                            <module name="org.apache.httpcomponents" export="false" slot="main" services="import" optional="false"/>
+                            <module name="org.apache.neethi" export="false" slot="main" services="import" optional="false"/>
+                            <module name="org.apache.ws.xmlschema" export="false" slot="main" services="import" optional="false"/>
+                            <module name="org.codehaus.jackson.jackson-core-asl" export="false" slot="main" services="import" optional="false"/>
+                            <module name="org.drools" export="false" slot="main" services="import" optional="false"/>
+                            <module name="org.eclipse.aether" export="false" slot="main" services="import" optional="false"/>
+                            <module name="org.eclipse.emf" export="false" slot="main" services="import" optional="false"/>
+                            <module name="org.freemarker" export="false" slot="main" services="import" optional="false"/>
+                            <module name="org.hibernate" export="false" slot="main" services="import" optional="false"/>
+                            <module name="org.javassist" export="false" slot="main" services="import" optional="false"/>
+                            <module name="org.jboss.as.osgi.jta" export="false" slot="main" services="import" optional="false"/>
+                            <module name="org.jdom" export="false" slot="main" services="import" optional="false"/>
+                            <module name="org.joda.time" export="false" slot="main" services="import" optional="false"/>
+                            <module name="org.kie" export="false" slot="main" services="import" optional="false"/>
+                            <module name="org.mvel" export="false" slot="main" services="import" optional="false"/>
+                            <module name="org.osgi" export="false" slot="main" services="import" optional="false"/>
+                            <module name="org.osgi.core" export="false" slot="main" services="import" optional="false"/>
+                            <module name="org.scannotation.scannotation" export="false" slot="main" services="import" optional="false"/>
+                            <module name="org.slf4j" export="false" slot="main" services="import" optional="false"/>
+              </dependencies>
+  </module>
