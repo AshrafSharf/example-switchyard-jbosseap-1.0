@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <module xmlns="urn:jboss:module:1.0" name="nu.magick.masterKonnector">
   <resources>
-    <resource-root path="MasterKonnector-2.7.0-SNAPSHOT.jar"/>
+    <resource-root path="MasterKonnector-2.7.60.jar"/>
   </resources>
   <dependencies>
     <module name="org.codehaus.jackson.jackson-mapper-asl" export="true"/>
