@@ -4,7 +4,7 @@
         <resource-root path="indicators-2.7.0-SNAPSHOT.jar" />
         <resource-root path="rulegenerator-2.7.0-SNAPSHOT.jar" />
         <resource-root path="camel-velocity-2.14.1.jar" />
-        <resource-root path="velocity-1.5.jar" />
+        <resource-root path="velocity-1.7.jar" />
         <resource-root path="velocity-tools-2.0.jar" />
     </resources>
     <dependencies>
