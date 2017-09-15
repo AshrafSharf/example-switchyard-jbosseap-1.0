@@ -6,6 +6,15 @@
         <resource-root path="camel-velocity-2.14.1.jar" />
         <resource-root path="velocity-1.7.jar" />
         <resource-root path="velocity-tools-2.0.jar" />
+	<resource-root path="tradeworks-messaging-tw2-1.0.jar" />
+	<resource-root path="aws-java-sdk-sns-1.11.125.jar" />
+	<resource-root path="aws-java-sdk-core-1.11.125.jar" />
+	<resource-root path="httpcore-4.4.6.jar" />
+	<resource-root path="httpclient-4.5.2.jar" />
+	<resource-root path="jackson-core-2.8.8.jar" />
+	<resource-root path="jackson-databind-2.8.8.jar" />
+	<resource-root path="jackson-annotations-2.8.8.jar" />
+
     </resources>
     <dependencies>
 		<module name="javax.api"/>
@@ -16,7 +25,6 @@
         <module name="org.drools"/>
         <module name="org.apache.log4j"/>
         <module name="org.apache.commons.lang3"/>
-        <module name="com.fasterxml.jackson.core"/>
         <module name="org.apache.camel.core"/>
         <module name="org.javassist"/>
         <module name="org.jboss.weld.core"/>
