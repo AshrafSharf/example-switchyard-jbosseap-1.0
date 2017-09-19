@@ -14,6 +14,7 @@
 	<resource-root path="jackson-core-2.8.8.jar" />
 	<resource-root path="jackson-databind-2.8.8.jar" />
 	<resource-root path="jackson-annotations-2.8.8.jar" />
+    <resource-root path="joda-time-2.8.1.jar" />
 
     </resources>
     <dependencies>
